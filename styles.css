@@ -1,0 +1,53 @@
+body {
+    font-family: 'Cinzel', serif; /* Gothic font */
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* Dark background */
+    color: #f0f0f0; /* Light text color */
+}
+
+header {
+    background: #333; /* Dark header */
+    color: #ffcc00; /* Gold text */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #ffcc00; /* Gold border */
+}
+
+h1, h2 {
+    font-family: 'Creepster', cursive; /* Gothic font for headings */
+    text-shadow: 1px 1px #000; /* Subtle shadow for readability */
+}
+
+section {
+    margin: 20px;
+    padding: 15px;
+    background: #222; /* Darker section background */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #ffcc00; /* Gold links */
+    text-decoration: none;
+}
